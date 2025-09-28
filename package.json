@@ -1,0 +1,14 @@
+{
+  "name": "crypto-news-sentiment-analyzer",
+  "version": "0.1.0",
+  "main": "src/analyze.js",
+  "scripts": {
+    "analyze": "node src/analyze.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.0",
+    "sentiment": "^5.0.2",
+    "xml2js": "^0.4.23"
+  }
+}

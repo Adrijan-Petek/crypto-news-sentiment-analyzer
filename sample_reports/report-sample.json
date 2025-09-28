@@ -1,0 +1,27 @@
+{
+  "date": "2025-09-28",
+  "overall_sentiment": "neutral",
+  "stats": {
+    "positive": 12,
+    "negative": 7,
+    "neutral": 21
+  },
+  "total_headlines": 40,
+  "top_headlines": [
+    {
+      "title": "Bitcoin surges past $65k",
+      "source": "CoinDesk",
+      "score": 3,
+      "comparative": 0.6,
+      "sentiment": "positive"
+    },
+    {
+      "title": "Regulator delays crypto rulemaking",
+      "source": "Reuters",
+      "score": -2,
+      "comparative": -0.3,
+      "sentiment": "negative"
+    }
+  ],
+  "timestamp": "2025-09-28T12:35:03.654358Z"
+}

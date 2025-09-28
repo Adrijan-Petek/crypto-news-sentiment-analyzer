@@ -1,0 +1,9 @@
+{
+  "sources": [
+    "cryptopanic",
+    "newsapi",
+    "coindesk-rss"
+  ],
+  "query": "crypto OR bitcoin OR ethereum",
+  "max_headlines": 50
+}
