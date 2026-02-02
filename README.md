@@ -1,5 +1,7 @@
 # Crypto News Sentiment Analyzer
 
+![Crypto News Sentiment Dashboard](./scree.png)
+
 Fetches cryptocurrency news headlines from multiple sources, scores sentiment, and produces daily JSON/Markdown reports. A Next.js dashboard in `web/` can display a live `latest.json` report (with a sample fallback).
 
 ## Features
