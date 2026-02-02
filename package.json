@@ -1,0 +1,33 @@
+{
+  "name": "crypto-news-sentiment-analyzer",
+  "version": "0.1.0",
+  "main": "src/analyze.js",
+  "scripts": {
+    "analyze": "node src/analyze.js",
+    "analyze:latest": "node src/analyze.js --latest",
+    "analyze:web": "node src/analyze.js --latest --output-dir web/public/reports --stdout none",
+    "test": "node --test",
+    "lint": "eslint src test",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build",
+    "web:start": "npm --prefix web run start"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.0",
+    "sentiment": "^5.0.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
